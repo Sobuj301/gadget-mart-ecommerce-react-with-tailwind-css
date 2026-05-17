@@ -1,0 +1,102 @@
+[
+  {
+    "id": "gadget-01",
+    "title": "Pro Sound TWS Earbuds",
+    "price": 49.99,
+    "category": "audio",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "High-quality wireless earbuds with active noise cancellation, crystal clear bass, and up to 30-hour total battery life with the charging case.",
+    "stock": 15
+  },
+  {
+    "id": "gadget-02",
+    "title": "AuraFit Smartwatch v2",
+    "price": 89.99,
+    "category": "wearables",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Elegant smartwatch with AMOLED display, real-time heart rate monitoring, blood oxygen tracking, and 14 days of standby battery.",
+    "stock": 8
+  },
+  {
+    "id": "gadget-03",
+    "title": "Apex Mechanical Keyboard",
+    "price": 69.99,
+    "category": "gaming",
+    "rating": 4.8,
+    "image": "https://plus.unsplash.com/premium_photo-1774404555798-7eb02b801202?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "RGB backlit mechanical keyboard with hot-swappable blue switches, premium aluminum top frame, and dedicated media controls.",
+    "stock": 12
+  },
+  {
+    "id": "gadget-04",
+    "title": "VoltCharge 20K Power Bank",
+    "price": 29.99,
+    "category": "accessories",
+    "rating": 4.4,
+    "image": "https://media.istockphoto.com/id/1137938601/photo/top-view-of-work-space-photographer-with-digital-camera-flash-cleaning-kit-memory-card.webp?a=1&b=1&s=612x612&w=0&k=20&c=ypit0KEsbn7NMosw9VEyjzdoZLHpqKs3eUTJB873h-s=",
+    "description": "Ultra-fast 22.5W power bank with 20000mAh capacity, dual USB-A output ports, and a sleek digital battery percentage display.",
+    "stock": 25
+  },
+  {
+    "id": "gadget-05",
+    "title": "SonicBoom Bluetooth Speaker",
+    "price": 59.99,
+    "category": "audio",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "IPX7 waterproof portable speaker delivering 360-degree punchy sound, rich bass, and continuous 20 hours of outdoor playtime.",
+    "stock": 10
+  },
+  {
+    "id": "gadget-06",
+    "title": "Titan Pro Gaming Mouse",
+    "price": 39.99,
+    "category": "gaming",
+    "rating": 4.9,
+    "image": "https://plus.unsplash.com/premium_photo-1773732668012-802ada4956bf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Lightweight wireless gaming mouse featuring a 16K DPI optical sensor, 6 programmable buttons, and ultra-low latency response.",
+    "stock": 18
+  },
+  {
+    "id": "gadget-07",
+    "title": "Pulse Over-Ear Headphones",
+    "price": 119.99,
+    "category": "audio",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1524621880920-5a6a9a3b239e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Premium wireless over-ear headphones with hybrid ANC, memory foam earcups, and high-resolution studio-grade sound quality.",
+    "stock": 5
+  },
+  {
+    "id": "gadget-08",
+    "title": "NeoBand Fitness Tracker",
+    "price": 34.99,
+    "category": "wearables",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1575125069494-6a0c5819d340?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Slim and lightweight fitness band featuring step tracking, sleep analysis, continuous calorie counters, and water resistance up to 50m.",
+    "stock": 30
+  },
+  {
+    "id": "gadget-09",
+    "title": "OmniCharge 3-in-1 Wireless Dock",
+    "price": 45.00,
+    "category": "accessories",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1515940175183-6798529cb860?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FkZ2V0JTIwYWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D",
+    "description": "Fast charging wireless station that simultaneously charges your iPhone or Android phone, Apple Watch, and AirPods altogether.",
+    "stock": 14
+  },
+  {
+    "id": "gadget-10",
+    "title": "Stealth Ergonomic Gaming Chair",
+    "price": 199.99,
+    "category": "gaming",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Premium faux leather gaming chair with 4D adjustable armrests, full lumbar support pillow, and a 180-degree reclining mechanism.",
+    "stock": 4
+  }
+]
