@@ -29,7 +29,7 @@ const MainLayout = () => {
 
 
     return (
-        <div>
+        <div className="bg-[#F8FAFC] text-[#0F172A] dark:bg-[#0B1220] dark:text-[#F9FAFB] ">
             <Navbar></Navbar>
             <main className="">
                 <Outlet></Outlet>

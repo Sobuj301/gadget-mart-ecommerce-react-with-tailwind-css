@@ -3,6 +3,9 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import Shop from "../pages/Shop";
 import Contact from "../pages/Contact";
+import ErrorPage from "../pages/ErrorPage";
+
+import categories from "../data/categories.json"
 
 export const router = createBrowserRouter([
   {
@@ -11,7 +14,10 @@ export const router = createBrowserRouter([
     children:[
         {
             index:true,
-            Component:Home
+            Component:Home,
+            loader: () => categories,
+            errorElement:<ErrorPage></ErrorPage>,
+           
         },
         {
             path:"shop",

@@ -1,41 +1,124 @@
-import { Menu, ShoppingCartIcon, X } from "lucide-react";
-import { useState } from "react";
+import { Menu, Moon, ShoppingCartIcon, Sun, X } from "lucide-react";
+import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
-
     const [isOpen, setIsOpen] = useState(false)
-    return (
-        <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
-            <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
-                <Link to="/" className="font-bold text-xl">GADGET<span className="text-emerald-600">MART</span></Link>
+    const [dark, setDark] = useState(
+        localStorage.getItem("theme") === "dark"
+    )
 
+    useEffect(() => {
+        if (dark) {
+            document.documentElement.classList.add('dark')
+            localStorage.setItem("theme", "dark")
+        }
+        else {
+            document.documentElement.classList.remove('dark')
+            localStorage.setItem("theme", "light")
+        }
+    }, [dark])
+
+
+    return (
+        <div className="sticky top-0 z-50 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+
+            <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
+
+                {/* LOGO */}
+                <Link
+                    to="/"
+                    className="font-bold text-xl"
+                >
+                    GADGET
+                    <span className="text-emerald-600">MART</span>
+                </Link>
+
+                {/* NAV LINKS */}
                 <ul className="hidden md:flex space-x-8">
-                    <li><NavLink to="/"
-                        className={({ isActive }) => `
-                     ${isActive ? "hover:text-emerald-600 border-b-2 text-emerald-600 border-emerald-600" : "text-black hover:text-emerald-600 "}`}>Home</NavLink></li>
-                    <li><NavLink to="/shop" className={({ isActive }) => `
-                     ${isActive ? "hover:text-emerald-600 border-b-2 text-emerald-600 border-emerald-600" : "text-black hover:text-emerald-600 "}`}>Shop</NavLink></li>
-                    <li><NavLink to="/Contact" className={({ isActive }) => `
-                     ${isActive ? "hover:text-emerald-600 border-b-2 text-emerald-600 border-emerald-600" : "text-black hover:text-emerald-600 "}`}>Contact</NavLink></li>
+
+                    <li>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "text-emerald-600 border-b-2 border-emerald-600 pb-1"
+                                    : "hover:text-emerald-600 transition"
+                            }
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink
+                            to="/shop"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "text-emerald-600 border-b-2 border-emerald-600 pb-1"
+                                    : "hover:text-emerald-600 transition"
+                            }
+                        >
+                            Shop
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink
+                            to="/contact"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "text-emerald-600 border-b-2 border-emerald-600 pb-1"
+                                    : "hover:text-emerald-600 transition"
+                            }
+                        >
+                            Contact
+                        </NavLink>
+                    </li>
+
                 </ul>
-                <div className="flex items-center space-x-4">
-                    <button className="text-slate-700 hover:text-emerald-600 transition-colors">
-                        <ShoppingCartIcon className="w-6 h-6 " />
+
+                {/* ACTIONS */}
+                <div className="flex items-center gap-4">
+
+                    {/* DARK MODE */}
+                    <button
+                        onClick={() => setDark(!dark)}
+                        className="hover:text-emerald-600 transition"
+                    >
+                        {dark ? <Sun /> : <Moon />}
                     </button>
 
-                    <div className="md:hidden flex items-center">
-                        <button onClick={() => setIsOpen(!isOpen)} className="text-slate-700">
-                            {isOpen ? <X className="w-6 h-6 text-slate-700 hover:text-emerald-600 transition-colors" /> : <Menu className="w-6 h-6 text-slate-700 hover:text-emerald-600 transition-colors" />}
-                        </button>
-                    </div>
+                    {/* CART */}
+                    <button className="hover:text-emerald-600 transition">
+                        <ShoppingCartIcon className="w-6 h-6" />
+                    </button>
+
+                    {/* MOBILE MENU */}
+                    <button className="md:hidden">
+                        {isOpen ? <X /> : <Menu />}
+                    </button>
+
                 </div>
+
             </nav>
+
+            {/* MOBILE MENU */}
             {isOpen && (
-                <div className="absolute right-0 left-0 top-full md:hidden bg-white/90 backdrop-blur-md border-b border-slate-100 px-4 pb-4 flex flex-col font-medium">
-                    <NavLink to="/" onClick={() => setIsOpen(false)} className="block py-2 text-slate-600 hover:text-emerald-600">Home</NavLink>
-                    <NavLink to="/shop" onClick={() => setIsOpen(false)} className="block py-2 text-slate-600 hover:text-emerald-600">Shop</NavLink>
-                    <NavLink to="/contact" onClick={() => setIsOpen(false)} className="block py-2 text-slate-600 hover:text-emerald-600">Contact</NavLink>
+                <div className="absolute top-full left-0 right-0 md:hidden bg-white/90 dark:bg-black/60 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 pb-4 flex flex-col">
+
+                    <NavLink className="py-2 hover:text-emerald-600" to="/" onClick={() => setIsOpen(false)}>
+                        Home
+                    </NavLink>
+
+                    <NavLink className="py-2 hover:text-emerald-600" to="/shop" onClick={() => setIsOpen(false)}>
+                        Shop
+                    </NavLink>
+
+                    <NavLink className="py-2 hover:text-emerald-600" to="/contact" onClick={() => setIsOpen(false)}>
+                        Contact
+                    </NavLink>
+
                 </div>
             )}
         </div>
