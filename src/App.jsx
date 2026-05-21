@@ -3,18 +3,31 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import { motion } from "framer-motion";
+
 
 function App() {
+
+
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
+      <motion.section
+        initial={{ opacity: 0, x: -80 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+        id="center">
+        <motion.div
+          initial={{ opacity: 0, x: -80, scale: 0 }}
+          animate={{ opacity: 1, x: 0,scale:2 }}
+          transition={{ duration: 0.8 }}
+          className="hero">
+
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
+        </motion.div>
         <div>
           <h1>Get started</h1>
           <p>
@@ -28,7 +41,7 @@ function App() {
         >
           Count is {count}
         </button>
-      </section>
+      </motion.section>
 
       <div className="ticks"></div>
 
