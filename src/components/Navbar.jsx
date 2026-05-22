@@ -21,7 +21,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="sticky top-0 z-50 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        <div className="fixed w-full top-0 z-50 backdrop-blur border-b border-slate-200 dark:border-slate-800">
 
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
 
@@ -95,7 +95,7 @@ const Navbar = () => {
                     </button>
 
                     {/* MOBILE MENU */}
-                    <button className="md:hidden">
+                    <button onClick={()=>setIsOpen(!isOpen)} className="md:hidden">
                         {isOpen ? <X /> : <Menu />}
                     </button>
 
@@ -105,7 +105,7 @@ const Navbar = () => {
 
             {/* MOBILE MENU */}
             {isOpen && (
-                <div className="absolute top-full left-0 right-0 md:hidden bg-white/90 dark:bg-black/60 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 pb-4 flex flex-col">
+                <div className="absolute top-full left-0 right-0 md:hidden bg-[#F8FAFC] text-[#0F172A] dark:bg-[#0B1220] dark:text-[#F9FAFB]  backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 pb-4 flex flex-col">
 
                     <NavLink className="py-2 hover:text-emerald-600" to="/" onClick={() => setIsOpen(false)}>
                         Home

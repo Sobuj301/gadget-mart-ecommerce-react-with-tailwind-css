@@ -1,5 +1,5 @@
 
-const Search = ({search,setSearch}) => {
+const Search = ({search,setSearch,setSortType,sortType}) => {
 
     return (
         <div className="flex items-center justify-between gap-4 pb-5 bg-transparent">
@@ -23,7 +23,8 @@ const Search = ({search,setSearch}) => {
             {/* Select dropdown - Adaptive Light/Dark Mode */}
             <div className="relative">
                 <select
-                    defaultValue=""
+                    onChange={(e)=>setSortType(e.target.value)}
+                    value={sortType}
                     className="appearance-none bg-white dark:bg-slate-900 text-gray-600 dark:text-slate-300 border border-gray-200 dark:border-slate-800 focus:border-emerald-500 dark:focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 pl-4 pr-10 py-2 rounded-xl text-sm transition-all duration-200 cursor-pointer outline-none shadow-sm"
                     name="priceSort"
                     id="priceSort"

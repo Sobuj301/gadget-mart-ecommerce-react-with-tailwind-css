@@ -31,7 +31,7 @@ const MainLayout = () => {
     return (
         <div className="bg-[#F8FAFC] text-[#0F172A] dark:bg-[#0B1220] dark:text-[#F9FAFB] ">
             <Navbar></Navbar>
-            <main className="">
+            <main className="pt-16">
                 <Outlet></Outlet>
             </main>
             <Footer></Footer>

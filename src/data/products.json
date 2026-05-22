@@ -10,36 +10,6 @@
     "stock": 15
   },
   {
-    "id": "gadget-02",
-    "title": "AuraFit Smartwatch v2",
-    "price": 89.99,
-    "category": "wearables",
-    "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Elegant smartwatch with AMOLED display, real-time heart rate monitoring, blood oxygen tracking, and 14 days of standby battery.",
-    "stock": 8
-  },
-  {
-    "id": "gadget-03",
-    "title": "Apex Mechanical Keyboard",
-    "price": 69.99,
-    "category": "gaming",
-    "rating": 4.8,
-    "image": "https://plus.unsplash.com/premium_photo-1774404555798-7eb02b801202?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "RGB backlit mechanical keyboard with hot-swappable blue switches, premium aluminum top frame, and dedicated media controls.",
-    "stock": 12
-  },
-  {
-    "id": "gadget-04",
-    "title": "VoltCharge 20K Power Bank",
-    "price": 29.99,
-    "category": "accessories",
-    "rating": 4.4,
-    "image": "https://media.istockphoto.com/id/1137938601/photo/top-view-of-work-space-photographer-with-digital-camera-flash-cleaning-kit-memory-card.webp?a=1&b=1&s=612x612&w=0&k=20&c=ypit0KEsbn7NMosw9VEyjzdoZLHpqKs3eUTJB873h-s=",
-    "description": "Ultra-fast 22.5W power bank with 20000mAh capacity, dual USB-A output ports, and a sleek digital battery percentage display.",
-    "stock": 25
-  },
-  {
     "id": "gadget-05",
     "title": "SonicBoom Bluetooth Speaker",
     "price": 59.99,
@@ -98,5 +68,35 @@
     "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Premium faux leather gaming chair with 4D adjustable armrests, full lumbar support pillow, and a 180-degree reclining mechanism.",
     "stock": 4
+  },
+   {
+    "id": "gadget-02",
+    "title": "AuraFit Smartwatch v2",
+    "price": 89.99,
+    "category": "wearables",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Elegant smartwatch with AMOLED display, real-time heart rate monitoring, blood oxygen tracking, and 14 days of standby battery.",
+    "stock": 8
+  },
+  {
+    "id": "gadget-03",
+    "title": "Apex Mechanical Keyboard",
+    "price": 69.99,
+    "category": "gaming",
+    "rating": 4.8,
+    "image": "https://plus.unsplash.com/premium_photo-1774404555798-7eb02b801202?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "RGB backlit mechanical keyboard with hot-swappable blue switches, premium aluminum top frame, and dedicated media controls.",
+    "stock": 12
+  },
+  {
+    "id": "gadget-04",
+    "title": "VoltCharge 20K Power Bank",
+    "price": 29.99,
+    "category": "accessories",
+    "rating": 4.4,
+    "image": "https://media.istockphoto.com/id/1137938601/photo/top-view-of-work-space-photographer-with-digital-camera-flash-cleaning-kit-memory-card.webp?a=1&b=1&s=612x612&w=0&k=20&c=ypit0KEsbn7NMosw9VEyjzdoZLHpqKs3eUTJB873h-s=",
+    "description": "Ultra-fast 22.5W power bank with 20000mAh capacity, dual USB-A output ports, and a sleek digital battery percentage display.",
+    "stock": 25
   }
 ]
