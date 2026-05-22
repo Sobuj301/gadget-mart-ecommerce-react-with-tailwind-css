@@ -4,8 +4,7 @@ import Home from "../pages/Home";
 import Shop from "../pages/Shop";
 import Contact from "../pages/Contact";
 import ErrorPage from "../pages/ErrorPage";
-
-import categories from "../data/categories.json"
+import HomeLoader from "../components/HomeLoader";
 
 export const router = createBrowserRouter([
   {
@@ -15,7 +14,7 @@ export const router = createBrowserRouter([
         {
             index:true,
             Component:Home,
-            loader: () => categories,
+            loader:HomeLoader,
             errorElement:<ErrorPage></ErrorPage>,
            
         },
