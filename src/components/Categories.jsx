@@ -1,10 +1,8 @@
 import CategoryCard from "./CategoryCard";
 import Heading from "./Heading";
-import ScrollReveal from "./ScrollReveal";
 
 const Categories = ({ categories }) => {
     return (
-        <ScrollReveal>
             <div className="max-w-7xl mx-auto py-5 md:py-16 px-4 sm:px-6 lg:px-8">
                 <Heading title=" Browse by Category" subTitle="Our Collections"></Heading>
 
@@ -13,9 +11,7 @@ const Categories = ({ categories }) => {
                         categories.map(category => <CategoryCard key={category.id} category={category}></CategoryCard>)
                     }
                 </div>
-
             </div>
-        </ScrollReveal>
     );
 };
 

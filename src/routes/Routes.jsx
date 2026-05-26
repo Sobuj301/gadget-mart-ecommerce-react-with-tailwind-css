@@ -5,6 +5,7 @@ import Shop from "../pages/Shop";
 import Contact from "../pages/Contact";
 import ErrorPage from "../pages/ErrorPage";
 import HomeLoader from "../components/HomeLoader";
+import CategoryDetails from "../pages/CategoryDetails";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ export const router = createBrowserRouter([
         {
             path:"contact",
             Component:Contact
+        },
+        {
+            path:"category/:id",
+            Component:CategoryDetails,
+            loader:HomeLoader
         },
     ]
   },

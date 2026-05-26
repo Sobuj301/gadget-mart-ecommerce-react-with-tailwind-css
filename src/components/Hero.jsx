@@ -10,7 +10,7 @@ const Hero = () => {
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
-                className="flex flex-col space-y-6 text-center lg:text-left items-center lg:items-start pb-8 lg:pb-0"
+                className="flex flex-col md:w-5/6 space-y-6 text-center lg:text-left items-center lg:items-start pb-8 lg:pb-0"
             >
 
                 {/* HEADING */}
