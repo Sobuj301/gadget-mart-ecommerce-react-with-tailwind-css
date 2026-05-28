@@ -1,26 +1,38 @@
- [
+[
   {
-    "id": "cat-audio",
-    "name": "Audio Devices",
-    "slug": "audio",
-    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=865&auto=format&fit=crop"
+    "id": "cat-001",
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "image": "https://plus.unsplash.com/premium_photo-1680985551022-ad298e8a5f82?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    "id": "cat-wearables",
-    "name": "Wearables",
-    "slug": "wearables",
-    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=627&auto=format&fit=crop"
+    "id": "cat-002",
+    "name": "Laptops",
+    "slug": "laptops",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    "id": "cat-gaming",
-    "name": "Gaming Gears",
+    "id": "cat-003",
+    "name": "Smart Watches",
+    "slug": "smart-watches",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=404&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "cat-004",
+    "name": "Headphones",
+    "slug": "headphones",
+    "image": "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "cat-005",
+    "name": "Gaming",
     "slug": "gaming",
-    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=965&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1604846887565-640d2f52d564?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    "id": "cat-accessories",
-    "name": "Accessories",
-    "slug": "accessories",
-    "image": "https://images.unsplash.com/photo-1625766763788-95dcce9bf5ac?q=80&w=870&auto=format&fit=crop"
+    "id": "cat-006",
+    "name": "Cameras",
+    "slug": "cameras",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=400"
   }
 ]

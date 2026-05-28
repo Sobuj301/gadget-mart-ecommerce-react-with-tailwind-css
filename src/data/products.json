@@ -1,102 +1,1382 @@
 [
   {
-    "id": "gadget-01",
-    "title": "Pro Sound TWS Earbuds",
-    "price": 49.99,
-    "category": "audio",
-    "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "High-quality wireless earbuds with active noise cancellation, crystal clear bass, and up to 30-hour total battery life with the charging case.",
-    "stock": 15
-  },
-  {
-    "id": "gadget-05",
-    "title": "SonicBoom Bluetooth Speaker",
-    "price": 59.99,
-    "category": "audio",
-    "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "IPX7 waterproof portable speaker delivering 360-degree punchy sound, rich bass, and continuous 20 hours of outdoor playtime.",
-    "stock": 10
-  },
-  {
-    "id": "gadget-06",
-    "title": "Titan Pro Gaming Mouse",
-    "price": 39.99,
-    "category": "gaming",
-    "rating": 4.9,
-    "image": "https://plus.unsplash.com/premium_photo-1773732668012-802ada4956bf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Lightweight wireless gaming mouse featuring a 16K DPI optical sensor, 6 programmable buttons, and ultra-low latency response.",
-    "stock": 18
-  },
-  {
-    "id": "gadget-07",
-    "title": "Pulse Over-Ear Headphones",
-    "price": 119.99,
-    "category": "audio",
-    "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1524621880920-5a6a9a3b239e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Premium wireless over-ear headphones with hybrid ANC, memory foam earcups, and high-resolution studio-grade sound quality.",
-    "stock": 5
-  },
-  {
-    "id": "gadget-08",
-    "title": "NeoBand Fitness Tracker",
-    "price": 34.99,
-    "category": "wearables",
-    "rating": 4.3,
-    "image": "https://images.unsplash.com/photo-1575125069494-6a0c5819d340?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Slim and lightweight fitness band featuring step tracking, sleep analysis, continuous calorie counters, and water resistance up to 50m.",
-    "stock": 30
-  },
-  {
-    "id": "gadget-09",
-    "title": "OmniCharge 3-in-1 Wireless Dock",
-    "price": 45.00,
-    "category": "accessories",
-    "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1515940175183-6798529cb860?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FkZ2V0JTIwYWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D",
-    "description": "Fast charging wireless station that simultaneously charges your iPhone or Android phone, Apple Watch, and AirPods altogether.",
-    "stock": 14
-  },
-  {
-    "id": "gadget-10",
-    "title": "Stealth Ergonomic Gaming Chair",
-    "price": 199.99,
-    "category": "gaming",
-    "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Premium faux leather gaming chair with 4D adjustable armrests, full lumbar support pillow, and a 180-degree reclining mechanism.",
-    "stock": 4
-  },
-   {
-    "id": "gadget-02",
-    "title": "AuraFit Smartwatch v2",
-    "price": 89.99,
-    "category": "wearables",
-    "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Elegant smartwatch with AMOLED display, real-time heart rate monitoring, blood oxygen tracking, and 14 days of standby battery.",
-    "stock": 8
-  },
-  {
-    "id": "gadget-03",
-    "title": "Apex Mechanical Keyboard",
-    "price": 69.99,
-    "category": "gaming",
-    "rating": 4.8,
-    "image": "https://plus.unsplash.com/premium_photo-1774404555798-7eb02b801202?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "RGB backlit mechanical keyboard with hot-swappable blue switches, premium aluminum top frame, and dedicated media controls.",
-    "stock": 12
-  },
-  {
-    "id": "gadget-04",
-    "title": "VoltCharge 20K Power Bank",
-    "price": 29.99,
-    "category": "accessories",
+    "id": "prod-001",
+    "title": "Tech Product 1",
+    "category": "smartphones",
+    "price": 110,
+    "originalPrice": 132,
     "rating": 4.4,
-    "image": "https://media.istockphoto.com/id/1137938601/photo/top-view-of-work-space-photographer-with-digital-camera-flash-cleaning-kit-memory-card.webp?a=1&b=1&s=612x612&w=0&k=20&c=ypit0KEsbn7NMosw9VEyjzdoZLHpqKs3eUTJB873h-s=",
-    "description": "Ultra-fast 22.5W power bank with 20000mAh capacity, dual USB-A output ports, and a sleek digital battery percentage display.",
-    "stock": 25
+    "reviewsCount": 53,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1621330396167-b3d451b9b83b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-1" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-002",
+    "title": "Tech Product 2",
+    "category": "laptops",
+    "price": 120,
+    "originalPrice": 144,
+    "rating": 4.5,
+    "reviewsCount": 56,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-2" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-003",
+    "title": "Tech Product 3",
+    "category": "smart-watches",
+    "price": 130,
+    "originalPrice": 156,
+    "rating": 4.6,
+    "reviewsCount": 59,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-3" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-004",
+    "title": "Tech Product 4",
+    "category": "headphones",
+    "price": 140,
+    "originalPrice": 168,
+    "rating": 4.7,
+    "reviewsCount": 62,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://plus.unsplash.com/premium_photo-1679864782376-bdbbb87d9027?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-4" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-005",
+    "title": "Tech Product 5",
+    "category": "gaming",
+    "price": 150,
+    "originalPrice": 180,
+    "rating": 4.8,
+    "reviewsCount": 65,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=347&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-5" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-006",
+    "title": "Tech Product 6",
+    "category": "cameras",
+    "price": 160,
+    "originalPrice": 192,
+    "rating": 4.9,
+    "reviewsCount": 68,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-6" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-007",
+    "title": "Tech Product 7",
+    "category": "smartphones",
+    "price": 170,
+    "originalPrice": 204,
+    "rating": 4.3,
+    "reviewsCount": 71,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1657798012479-4f792483ebdc?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-7" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-008",
+    "title": "Tech Product 8",
+    "category": "laptops",
+    "price": 180,
+    "originalPrice": 216,
+    "rating": 4.4,
+    "reviewsCount": 74,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-8" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-009",
+    "title": "Tech Product 9",
+    "category": "smart-watches",
+    "price": 190,
+    "originalPrice": 228,
+    "rating": 4.5,
+    "reviewsCount": 77,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-9" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-010",
+    "title": "Tech Product 10",
+    "category": "headphones",
+    "price": 200,
+    "originalPrice": 240,
+    "rating": 4.6,
+    "reviewsCount": 80,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-10" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-011",
+    "title": "Tech Product 11",
+    "category": "gaming",
+    "price": 210,
+    "originalPrice": 252,
+    "rating": 4.7,
+    "reviewsCount": 83,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-11" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-012",
+    "title": "Tech Product 12",
+    "category": "cameras",
+    "price": 220,
+    "originalPrice": 264,
+    "rating": 4.8,
+    "reviewsCount": 86,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-12" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-013",
+    "title": "Tech Product 13",
+    "category": "smartphones",
+    "price": 230,
+    "originalPrice": 276,
+    "rating": 4.9,
+    "reviewsCount": 89,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1778010955462-5b1c52059848?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-13" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-014",
+    "title": "Tech Product 14",
+    "category": "laptops",
+    "price": 240,
+    "originalPrice": 288,
+    "rating": 4.3,
+    "reviewsCount": 92,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-14" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-015",
+    "title": "Tech Product 15",
+    "category": "smart-watches",
+    "price": 250,
+    "originalPrice": 300,
+    "rating": 4.4,
+    "reviewsCount": 95,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-15" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-016",
+    "title": "Tech Product 16",
+    "category": "headphones",
+    "price": 260,
+    "originalPrice": 312,
+    "rating": 4.5,
+    "reviewsCount": 98,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-16" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-017",
+    "title": "Tech Product 17",
+    "category": "gaming",
+    "price": 270,
+    "originalPrice": 324,
+    "rating": 4.6,
+    "reviewsCount": 101,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://plus.unsplash.com/premium_photo-1774404555657-6eb588318ec2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-17" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-018",
+    "title": "Tech Product 18",
+    "category": "cameras",
+    "price": 280,
+    "originalPrice": 336,
+    "rating": 4.7,
+    "reviewsCount": 104,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-18" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-019",
+    "title": "Tech Product 19",
+    "category": "smartphones",
+    "price": 290,
+    "originalPrice": 348,
+    "rating": 4.8,
+    "reviewsCount": 107,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-19" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-020",
+    "title": "Tech Product 20",
+    "category": "laptops",
+    "price": 300,
+    "originalPrice": 360,
+    "rating": 4.9,
+    "reviewsCount": 110,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-20" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-021",
+    "title": "Tech Product 21",
+    "category": "smart-watches",
+    "price": 310,
+    "originalPrice": 372,
+    "rating": 4.3,
+    "reviewsCount": 113,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-21" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-022",
+    "title": "Tech Product 22",
+    "category": "headphones",
+    "price": 320,
+    "originalPrice": 384,
+    "rating": 4.4,
+    "reviewsCount": 116,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://plus.unsplash.com/premium_photo-1679913792954-6a5a93ae4cff?q=80&w=484&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-22" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-023",
+    "title": "Tech Product 23",
+    "category": "gaming",
+    "price": 330,
+    "originalPrice": 396,
+    "rating": 4.5,
+    "reviewsCount": 119,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-23" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-024",
+    "title": "Tech Product 24",
+    "category": "cameras",
+    "price": 340,
+    "originalPrice": 408,
+    "rating": 4.6,
+    "reviewsCount": 122,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-24" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-025",
+    "title": "Tech Product 25",
+    "category": "smartphones",
+    "price": 350,
+    "originalPrice": 420,
+    "rating": 4.7,
+    "reviewsCount": 125,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1738830241330-ae47f3708ad4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-25" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-026",
+    "title": "Tech Product 26",
+    "category": "laptops",
+    "price": 360,
+    "originalPrice": 432,
+    "rating": 4.8,
+    "reviewsCount": 128,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-26" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-027",
+    "title": "Tech Product 27",
+    "category": "smart-watches",
+    "price": 370,
+    "originalPrice": 444,
+    "rating": 4.9,
+    "reviewsCount": 131,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-27" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-028",
+    "title": "Tech Product 28",
+    "category": "headphones",
+    "price": 380,
+    "originalPrice": 456,
+    "rating": 4.3,
+    "reviewsCount": 134,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://plus.unsplash.com/premium_photo-1779667845587-3e1f1eb7cc0f?q=80&w=363&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-28" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-029",
+    "title": "Tech Product 29",
+    "category": "gaming",
+    "price": 390,
+    "originalPrice": 468,
+    "rating": 4.4,
+    "reviewsCount": 137,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-29" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-030",
+    "title": "Tech Product 30",
+    "category": "cameras",
+    "price": 400,
+    "originalPrice": 480,
+    "rating": 4.5,
+    "reviewsCount": 140,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-30" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-031",
+    "title": "Tech Product 31",
+    "category": "smartphones",
+    "price": 410,
+    "originalPrice": 492,
+    "rating": 4.6,
+    "reviewsCount": 143,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1646800159852-33545c66df9e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-31" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-032",
+    "title": "Tech Product 32",
+    "category": "laptops",
+    "price": 420,
+    "originalPrice": 504,
+    "rating": 4.7,
+    "reviewsCount": 146,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-32" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-033",
+    "title": "Tech Product 33",
+    "category": "smart-watches",
+    "price": 430,
+    "originalPrice": 516,
+    "rating": 4.8,
+    "reviewsCount": 149,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-33" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-034",
+    "title": "Tech Product 34",
+    "category": "headphones",
+    "price": 440,
+    "originalPrice": 528,
+    "rating": 4.9,
+    "reviewsCount": 152,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-34" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-035",
+    "title": "Tech Product 35",
+    "category": "gaming",
+    "price": 450,
+    "originalPrice": 540,
+    "rating": 4.3,
+    "reviewsCount": 155,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://media.istockphoto.com/id/2132363291/photo/gamepad-on-abstract-background-with-light-effects.jpg?s=1024x1024&w=is&k=20&c=PhF6dfcD03NtlCgezT1kntEB8P_0DNe6jrHTVCMl4fg=",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-35" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-036",
+    "title": "Tech Product 36",
+    "category": "cameras",
+    "price": 460,
+    "originalPrice": 552,
+    "rating": 4.4,
+    "reviewsCount": 158,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-36" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-037",
+    "title": "Tech Product 37",
+    "category": "smartphones",
+    "price": 470,
+    "originalPrice": 564,
+    "rating": 4.5,
+    "reviewsCount": 161,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1772618387306-9025aad4bbe8?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-37" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-038",
+    "title": "Tech Product 38",
+    "category": "laptops",
+    "price": 480,
+    "originalPrice": 576,
+    "rating": 4.6,
+    "reviewsCount": 164,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-38" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-039",
+    "title": "Tech Product 39",
+    "category": "smart-watches",
+    "price": 490,
+    "originalPrice": 588,
+    "rating": 4.7,
+    "reviewsCount": 167,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-39" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-040",
+    "title": "Tech Product 40",
+    "category": "headphones",
+    "price": 500,
+    "originalPrice": 600,
+    "rating": 4.8,
+    "reviewsCount": 170,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-40" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-041",
+    "title": "Tech Product 41",
+    "category": "gaming",
+    "price": 510,
+    "originalPrice": 612,
+    "rating": 4.9,
+    "reviewsCount": 173,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1608045254635-1055aae0f09e?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-41" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-042",
+    "title": "Tech Product 42",
+    "category": "cameras",
+    "price": 520,
+    "originalPrice": 624,
+    "rating": 4.3,
+    "reviewsCount": 176,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-42" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-043",
+    "title": "Tech Product 43",
+    "category": "smartphones",
+    "price": 530,
+    "originalPrice": 636,
+    "rating": 4.4,
+    "reviewsCount": 179,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-43" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-044",
+    "title": "Tech Product 44",
+    "category": "laptops",
+    "price": 540,
+    "originalPrice": 648,
+    "rating": 4.5,
+    "reviewsCount": 182,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-44" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-045",
+    "title": "Tech Product 45",
+    "category": "smart-watches",
+    "price": 550,
+    "originalPrice": 660,
+    "rating": 4.6,
+    "reviewsCount": 185,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=847&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-45" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-046",
+    "title": "Tech Product 46",
+    "category": "headphones",
+    "price": 560,
+    "originalPrice": 672,
+    "rating": 4.7,
+    "reviewsCount": 188,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-46" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-047",
+    "title": "Tech Product 47",
+    "category": "gaming",
+    "price": 570,
+    "originalPrice": 684,
+    "rating": 4.8,
+    "reviewsCount": 191,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1542549237432-a176cb9d5e5e?q=80&w=407&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-47" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-048",
+    "title": "Tech Product 48",
+    "category": "cameras",
+    "price": 580,
+    "originalPrice": 696,
+    "rating": 4.9,
+    "reviewsCount": 194,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-48" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-049",
+    "title": "Tech Product 49",
+    "category": "smartphones",
+    "price": 590,
+    "originalPrice": 708,
+    "rating": 4.3,
+    "reviewsCount": 197,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1771325041127-bdca3dcf298c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-49" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-050",
+    "title": "Tech Product 50",
+    "category": "laptops",
+    "price": 600,
+    "originalPrice": 720,
+    "rating": 4.4,
+    "reviewsCount": 200,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-50" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-051",
+    "title": "Tech Product 51",
+    "category": "smart-watches",
+    "price": 610,
+    "originalPrice": 732,
+    "rating": 4.5,
+    "reviewsCount": 203,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-51" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-052",
+    "title": "Tech Product 52",
+    "category": "headphones",
+    "price": 620,
+    "originalPrice": 744,
+    "rating": 4.6,
+    "reviewsCount": 206,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-52" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-053",
+    "title": "Tech Product 53",
+    "category": "gaming",
+    "price": 630,
+    "originalPrice": 756,
+    "rating": 4.7,
+    "reviewsCount": 209,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1589580173879-46993181bae4?q=80&w=384&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-53" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-054",
+    "title": "Tech Product 54",
+    "category": "cameras",
+    "price": 640,
+    "originalPrice": 768,
+    "rating": 4.8,
+    "reviewsCount": 212,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-54" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-055",
+    "title": "Tech Product 55",
+    "category": "smartphones",
+    "price": 650,
+    "originalPrice": 780,
+    "rating": 4.9,
+    "reviewsCount": 215,
+    "description": "High quality smartphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1772986646415-b57f1d97e3ae?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-55" },
+      { "title": "Category", "content": "smartphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-056",
+    "title": "Tech Product 56",
+    "category": "laptops",
+    "price": 660,
+    "originalPrice": 792,
+    "rating": 4.3,
+    "reviewsCount": 218,
+    "description": "High quality laptops designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-56" },
+      { "title": "Category", "content": "laptops" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-057",
+    "title": "Tech Product 57",
+    "category": "smart-watches",
+    "price": 670,
+    "originalPrice": 804,
+    "rating": 4.4,
+    "reviewsCount": 221,
+    "description": "High quality smart-watches designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-57" },
+      { "title": "Category", "content": "smart-watches" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-058",
+    "title": "Tech Product 58",
+    "category": "headphones",
+    "price": 680,
+    "originalPrice": 816,
+    "rating": 4.5,
+    "reviewsCount": 224,
+    "description": "High quality headphones designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-58" },
+      { "title": "Category", "content": "headphones" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-059",
+    "title": "Tech Product 59",
+    "category": "gaming",
+    "price": 690,
+    "originalPrice": 828,
+    "rating": 4.6,
+    "reviewsCount": 227,
+    "description": "High quality gaming designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1581725976932-49075306c78d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-59" },
+      { "title": "Category", "content": "gaming" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
+  },
+  {
+    "id": "prod-060",
+    "title": "Tech Product 60",
+    "category": "cameras",
+    "price": 700,
+    "originalPrice": 840,
+    "rating": 4.7,
+    "reviewsCount": 230,
+    "description": "High quality cameras designed for modern users with excellent performance and style.",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&q=80&w=400",
+    "features": [
+      { "name": "Premium Build", "description": "Durable and modern design." },
+      { "name": "Fast Performance", "description": "Optimized for smooth usage." },
+      { "name": "Battery Efficient", "description": "Long lasting usage time." },
+      { "name": "Warranty", "description": "1 year official warranty." }
+    ],
+    "specifications": [
+      { "title": "Model", "content": "TP-60" },
+      { "title": "Category", "content": "cameras" },
+      { "title": "Version", "content": "2026" },
+      { "title": "Support", "content": "Online + Offline" }
+    ]
   }
 ]

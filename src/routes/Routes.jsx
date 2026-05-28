@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import ErrorPage from "../pages/ErrorPage";
 import HomeLoader from "../components/HomeLoader";
 import CategoryDetails from "../pages/CategoryDetails";
+import ProductDetails from "../pages/ProductDetails";
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,12 @@ export const router = createBrowserRouter([
             path:"category/:id",
             Component:CategoryDetails,
             loader:HomeLoader
+        },
+        {
+            path:"product/:id",
+            Component:ProductDetails,
+            loader:HomeLoader
+           
         },
     ]
   },
