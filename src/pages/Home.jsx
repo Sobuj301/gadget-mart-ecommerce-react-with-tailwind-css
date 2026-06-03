@@ -4,13 +4,13 @@ import Categories from "../components/Categories";
 import Products from "../components/Products";
 
 const Home = () => {
-    const {categories,products }= useLoaderData()
-   
+    const { categories, products } = useLoaderData()
+
     return (
         <div>
             <Hero></Hero>
-                <Categories categories={categories}></Categories>
-                <Products products={products}></Products>
+            <Categories categories={categories}></Categories>
+            <Products products={products}></Products>
         </div>
     );
 };

@@ -1,4 +1,4 @@
-import { ArrowRight, Slice } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router";
 import ScrollReveal from "./ScrollReveal";
 

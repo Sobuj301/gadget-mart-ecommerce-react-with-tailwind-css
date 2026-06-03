@@ -8,9 +8,7 @@ const Products = ({ products }) => {
     const [showMore, setShowMore] = useState(false);
     const [sortType, setSortType] = useState("");
     const [search, setSearch] = useState("");
-
     const keyword = search.toLowerCase();
-
     const filterProducts = products.filter(
         (item) =>
             item.title.toLowerCase().includes(keyword) ||
