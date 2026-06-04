@@ -9,36 +9,36 @@ import CategoryDetails from "../pages/CategoryDetails";
 import ProductDetails from "../pages/ProductDetails";
 
 export const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: MainLayout,
-    children:[
-        {
-            index:true,
-            Component:Home,
-            loader:HomeLoader,
-            errorElement:<ErrorPage></ErrorPage>,
-           
-        },
-        {
-            path:"shop",
-            Component:Shop
-        },
-        {
-            path:"contact",
-            Component:Contact
-        },
-        {
-            path:"category/:id",
-            Component:CategoryDetails,
-            loader:HomeLoader
-        },
-        {
-            path:"product/:id",
-            Component:ProductDetails,
-            loader:HomeLoader
-           
-        },
-    ]
-  },
+    {
+        path: "/",
+        Component: MainLayout,
+        errorElement: <ErrorPage></ErrorPage>,
+        children: [
+            {
+                index: true,
+                Component: Home,
+                loader: HomeLoader,
+
+            },
+            {
+                path: "shop",
+                Component: Shop
+            },
+            {
+                path: "contact",
+                Component: Contact
+            },
+            {
+                path: "category/:id",
+                Component: CategoryDetails,
+                loader: HomeLoader
+            },
+            {
+                path: "product/:id",
+                Component: ProductDetails,
+                loader: HomeLoader
+
+            },
+        ]
+    },
 ]);

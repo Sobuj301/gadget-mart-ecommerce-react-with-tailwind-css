@@ -4,9 +4,12 @@ import { Link, NavLink } from "react-router";
 import { CartContext } from "../context/CartContext";
 
 const Navbar = () => {
-
-    const {cart} = useContext(CartContext)
+    const { cart } = useContext(CartContext)
+    const totalItem = cart.reduce((accumulator, currentItem) => {
+        return accumulator + currentItem.quantity
+    }, 0)
   
+    const [openCart, setOpenCart] = useState(false)
     const [isOpen, setIsOpen] = useState(false)
     const [dark, setDark] = useState(
         localStorage.getItem("theme") === "dark"
@@ -92,11 +95,13 @@ const Navbar = () => {
 
                     {/* CART */}
                     <div className="relative">
-                        <button className="relative hover:text-emerald-600 transition-colors duration-300">
+                        <button onClick={() => setOpenCart(!openCart)} className="relative hover:text-emerald-600 transition-colors duration-300">
                             <ShoppingCartIcon className="w-7 h-7" />
 
                             <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 text-xs font-semibold text-white bg-emerald-600 rounded-full">
-                            {cart?.length || 0}
+                                {/* {cart?.length || 0} */}
+
+                                {totalItem}
                             </span>
                         </button>
                     </div>
@@ -128,6 +133,7 @@ const Navbar = () => {
 
                 </div>
             )}
+
         </div>
     );
 };

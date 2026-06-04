@@ -11,25 +11,53 @@ const Reviews = () => {
   return (
     <ScrollReveal>
       <section className="py-12 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          {/* Heading */}
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2 text-center">
             Customer Reviews
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <p className="text-gray-500 dark:text-gray-400 text-center mb-10">
+            What our customers say about this product
+          </p>
+
+          {/* Reviews Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
             {reviews.map((review, i) => (
-              <div key={i} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+              <div
+                key={i}
+                className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 transition hover:shadow-md"
+              >
+                {/* Stars */}
                 <div className="flex text-yellow-500 mb-4">
                   {[...Array(5)].map((_, j) => (
-                    <Star key={j} size={16} fill={j < review.rating ? "currentColor" : "none"} />
+                    <Star
+                      key={j}
+                      size={16}
+                      fill={j < review.rating ? "currentColor" : "none"}
+                    />
                   ))}
                 </div>
-                <p className="text-gray-700 dark:text-gray-300 mb-4 italic">"{review.comment}"</p>
-                <h4 className="font-semibold text-gray-900 dark:text-white">- {review.name}</h4>
+
+                {/* Comment */}
+                <p className="text-gray-700 dark:text-gray-300 mb-4 italic">
+                  "{review.comment}"
+                </p>
+
+                {/* Name */}
+                <h4 className="font-semibold text-gray-900 dark:text-white">
+                  - {review.name}
+                </h4>
               </div>
             ))}
+
           </div>
+
         </div>
+
       </section>
     </ScrollReveal>
   );
