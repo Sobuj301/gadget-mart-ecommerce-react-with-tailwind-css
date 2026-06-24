@@ -4,135 +4,89 @@ import { Link, NavLink } from "react-router";
 import { CartContext } from "../context/CartContext";
 
 const Navbar = () => {
-    const { cart } = useContext(CartContext)
-    const totalItem = cart.reduce((accumulator, currentItem) => {
-        return accumulator + currentItem.quantity
-    }, 0)
+    const { cart } = useContext(CartContext);
+    const totalItem = cart.reduce((acc, item) => acc + item.quantity, 0);
   
-    const [openCart, setOpenCart] = useState(false)
-    const [isOpen, setIsOpen] = useState(false)
-    const [dark, setDark] = useState(
-        localStorage.getItem("theme") === "dark"
-    )
-    useEffect(() => {
-        if (dark) {
-            document.documentElement.classList.add('dark')
-            localStorage.setItem("theme", "dark")
-        }
-        else {
-            document.documentElement.classList.remove('dark')
-            localStorage.setItem("theme", "light")
-        }
-    }, [dark])
+    const [isOpen, setIsOpen] = useState(false);
+    const [dark, setDark] = useState(localStorage.getItem("theme") === "dark");
 
+    useEffect(() => {
+        document.documentElement.classList.toggle('dark', dark);
+        localStorage.setItem("theme", dark ? "dark" : "light");
+    }, [dark]);
+
+    const navLinks = [
+        { name: "Home", to: "/" },
+        { name: "Shop", to: "/shop" },
+        { name: "Contact", to: "/contact" },
+    ];
 
     return (
-        <div className="fixed w-full top-0 z-50 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+        <header className="fixed w-full top-0 z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800 transition-colors duration-500">
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
+                
                 {/* LOGO */}
-                <Link
-                    to="/"
-                    className="font-bold text-xl"
-                >
-                    GADGET
-                    <span className="text-emerald-600">MART</span>
+                <Link to="/" className="font-bold text-xl tracking-tight z-10">
+                    GADGET<span className="text-emerald-600">MART</span>
                 </Link>
 
-                {/* NAV LINKS */}
-                <ul className="hidden md:flex space-x-8">
-
-                    <li>
-                        <NavLink
-                            to="/"
-                            className={({ isActive }) =>
-                                isActive
-                                    ? "text-emerald-600 border-b-2 border-emerald-600 pb-1"
-                                    : "hover:text-emerald-600 transition"
-                            }
-                        >
-                            Home
-                        </NavLink>
-                    </li>
-
-                    <li>
-                        <NavLink
-                            to="/shop"
-                            className={({ isActive }) =>
-                                isActive
-                                    ? "text-emerald-600 border-b-2 border-emerald-600 pb-1"
-                                    : "hover:text-emerald-600 transition"
-                            }
-                        >
-                            Shop
-                        </NavLink>
-                    </li>
-
-                    <li>
-                        <NavLink
-                            to="/contact"
-                            className={({ isActive }) =>
-                                isActive
-                                    ? "text-emerald-600 border-b-2 border-emerald-600 pb-1"
-                                    : "hover:text-emerald-600 transition"
-                            }
-                        >
-                            Contact
-                        </NavLink>
-                    </li>
-
+                {/* DESKTOP LINKS - CENTERED */}
+                <ul className="hidden md:flex flex-1 justify-center gap-10 font-medium">
+                    {navLinks.map((link) => (
+                        <li key={link.name}>
+                            <NavLink
+                                to={link.to}
+                                className={({ isActive }) =>
+                                    `transition-all duration-300 ${isActive ? "text-emerald-600" : "hover:text-emerald-600"}`
+                                }
+                            >
+                                {link.name}
+                            </NavLink>
+                        </li>
+                    ))}
                 </ul>
 
                 {/* ACTIONS */}
-                <div className="flex items-center gap-4">
-
-                    {/* DARK MODE */}
-                    <button
-                        onClick={() => setDark(!dark)}
-                        className="hover:text-emerald-600 transition"
-                    >
-                        {dark ? <Sun /> : <Moon />}
+                <div className="flex items-center gap-4 z-10">
+                    <button onClick={() => setDark(!dark)} className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-all">
+                        {dark ? <Sun size={20} /> : <Moon size={20} />}
                     </button>
 
-                    {/* CART */}
-                    <div className="relative">
-                        <Link to="/cartPage" onClick={() => setOpenCart(!openCart)} className="relative hover:text-emerald-600 transition-colors duration-300">
-                            <ShoppingCartIcon className="w-7 h-7" />
-
-                            <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 text-xs font-semibold text-white bg-emerald-600 rounded-full">
+                    <Link to="/cartPage" className="relative p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-all">
+                        <ShoppingCartIcon size={20} />
+                        {totalItem > 0 && (
+                            <span className="absolute top-0 right-0 flex items-center justify-center w-4 h-4 text-[10px] font-bold text-white bg-emerald-600 rounded-full animate-in zoom-in">
                                 {totalItem}
                             </span>
-                        </Link>
-                    </div>
+                        )}
+                    </Link>
 
-                    {/* MOBILE MENU */}
-                    <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
-                        {isOpen ? <X /> : <Menu />}
+                    <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2">
+                        {isOpen ? <X size={24} /> : <Menu size={24} />}
                     </button>
-
                 </div>
-
             </nav>
 
-            {/* MOBILE MENU */}
-            {isOpen && (
-                <div className="absolute top-full left-0 right-0 md:hidden bg-[#F8FAFC] text-[#0F172A] dark:bg-[#0B1220] dark:text-[#F9FAFB]  backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 pb-4 flex flex-col">
-
-                    <NavLink className="py-2 hover:text-emerald-600" to="/" onClick={() => setIsOpen(false)}>
-                        Home
-                    </NavLink>
-
-                    <NavLink className="py-2 hover:text-emerald-600" to="/shop" onClick={() => setIsOpen(false)}>
-                        Shop
-                    </NavLink>
-
-                    <NavLink className="py-2 hover:text-emerald-600" to="/contact" onClick={() => setIsOpen(false)}>
-                        Contact
-                    </NavLink>
-
+            {/* MOBILE SLIDE-IN MENU */}
+            <div 
+                className={`md:hidden absolute top-16 left-0 w-full bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-500 ease-in-out ${
+                    isOpen ? "max-h-60 opacity-100 py-4" : "max-h-0 opacity-0 py-0"
+                }`}
+            >
+                <div className="flex flex-col items-center gap-4">
+                    {navLinks.map((link) => (
+                        <NavLink
+                            key={link.name}
+                            to={link.to}
+                            onClick={() => setIsOpen(false)}
+                            className="text-lg font-medium hover:text-emerald-600 transition-colors"
+                        >
+                            {link.name}
+                        </NavLink>
+                    ))}
                 </div>
-            )}
-
-        </div>
+            </div>
+        </header>
     );
 };
 
