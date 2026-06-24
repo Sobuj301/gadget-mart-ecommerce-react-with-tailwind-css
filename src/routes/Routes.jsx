@@ -7,18 +7,22 @@ import ErrorPage from "../pages/ErrorPage";
 import HomeLoader from "../components/HomeLoader";
 import CategoryDetails from "../pages/CategoryDetails";
 import ProductDetails from "../pages/ProductDetails";
+import CartPage from "../pages/CartPage";
+import CheckoutPage from "../pages/CheckoutPage";
+import SuccessPage from "../pages/SuccessPage";
+import OrdersPage from "../pages/OrdersPage";
 
 export const router = createBrowserRouter([
     {
+        id: "root",
         path: "/",
         Component: MainLayout,
+        loader:HomeLoader,
         errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 index: true,
                 Component: Home,
-                loader: HomeLoader,
-
             },
             {
                 path: "shop",
@@ -31,13 +35,26 @@ export const router = createBrowserRouter([
             {
                 path: "category/:id",
                 Component: CategoryDetails,
-                loader: HomeLoader
             },
             {
                 path: "product/:id",
                 Component: ProductDetails,
-                loader: HomeLoader
-
+            },
+            {
+                path: "cartPage",
+                Component: CartPage,
+            },
+            {
+                path: "checkout",
+                Component: CheckoutPage,
+            },
+            {
+                path: "success",
+                Component: SuccessPage,
+            },
+            {
+                path: "orders",
+                Component:OrdersPage,
             },
         ]
     },

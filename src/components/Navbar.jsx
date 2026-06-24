@@ -95,15 +95,13 @@ const Navbar = () => {
 
                     {/* CART */}
                     <div className="relative">
-                        <button onClick={() => setOpenCart(!openCart)} className="relative hover:text-emerald-600 transition-colors duration-300">
+                        <Link to="/cartPage" onClick={() => setOpenCart(!openCart)} className="relative hover:text-emerald-600 transition-colors duration-300">
                             <ShoppingCartIcon className="w-7 h-7" />
 
                             <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 text-xs font-semibold text-white bg-emerald-600 rounded-full">
-                                {/* {cart?.length || 0} */}
-
                                 {totalItem}
                             </span>
-                        </button>
+                        </Link>
                     </div>
 
                     {/* MOBILE MENU */}

@@ -1,10 +1,11 @@
-import { useLoaderData } from "react-router";
+import { useRouteLoaderData } from "react-router";
 import Hero from "../components/Hero";
 import Categories from "../components/Categories";
 import Products from "../components/Products";
 
 const Home = () => {
-    const { categories, products } = useLoaderData()
+    const {products,categories}= useRouteLoaderData("root");
+   
 
     return (
         <div>

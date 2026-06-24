@@ -2,21 +2,26 @@ import { motion } from "framer-motion";
 import { ShoppingCart, Star } from "lucide-react";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import Swal from "sweetalert2";
 const ProductHero = ({ findProduct }) => {
     const { cart, setCart } = useContext(CartContext)
     const { id, title, category, description, reviewsCount, price } = findProduct
 
     const handleAddToCart = () => {
         const existItem = cart.find(item => item.id === id);
-
         let updateCart;
 
         if (existItem) {
             updateCart = cart.map(item => {
                 if (item.id === id) {
+                    Swal.fire({
+                        title: "Cart Updated!",
+                        text: "Product quantity has been increased.",
+                        icon: "success"
+                    });
                     return { ...item, quantity: item.quantity + 1 };
                 }
-                return item; 
+                return item;
             });
         } else {
             const newCart = {
@@ -25,8 +30,12 @@ const ProductHero = ({ findProduct }) => {
             };
 
             updateCart = [...cart, newCart];
+            Swal.fire({
+                title: "Success!",
+                text: "Product added to cart successfully.",
+                icon: "success"
+            });
         }
-
         setCart(updateCart); // UI update
     };
     return (
@@ -65,7 +74,6 @@ const ProductHero = ({ findProduct }) => {
             drop-shadow-lg
           "
                         />
-
                     </div>
 
                     {/* glow effect */}

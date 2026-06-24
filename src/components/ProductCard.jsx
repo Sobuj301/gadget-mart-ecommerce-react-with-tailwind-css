@@ -2,7 +2,6 @@ import { Link } from "react-router";
 import ScrollReveal from "./ScrollReveal";
 
 const ProductCard = ({ product }) => {
-    console.log(product)
     const { id, title, price,category, image, rating, } = product
     return (
         <ScrollReveal>

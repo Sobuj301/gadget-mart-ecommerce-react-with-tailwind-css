@@ -26,7 +26,7 @@ const MainLayout = () => {
     }, []);
 
     useEffect(() => {
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0);
         lenisRef.current?.scrollTo(0, { immediate: true }); // Lenis এর স্মুথ স্ক্রল রিসেট
     }, [pathname]);
 

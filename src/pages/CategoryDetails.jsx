@@ -1,11 +1,11 @@
-import { useLoaderData, useParams } from "react-router";
+import { useParams, useRouteLoaderData } from "react-router";
 import CategoryBanner from "../components/CategoryBanner";
 import ProductCard from "../components/ProductCard";
 import CategoryCard from "../components/CategoryCard";
 import Heading from "../components/Heading";
 
 const CategoryDetails = () => {
-    const { products, categories } = useLoaderData()
+    const { products, categories } = useRouteLoaderData("root")
     const params = useParams()
     const filterCategory = categories.filter(cate => cate.slug !== params.id)
     const filterProduct = products.filter((item) => item.category === params.id)
